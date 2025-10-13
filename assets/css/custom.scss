@@ -1,0 +1,12 @@
+/* Center the navigation menu in the header */
+.site-header .wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional: center the logo/title as well */
+.site-title {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
