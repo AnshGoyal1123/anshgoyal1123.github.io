@@ -176,7 +176,6 @@ third_party_libraries: {}
 # -----------------------------------------------------------------------------
 # Theme colors and style
 # -----------------------------------------------------------------------------
-
 sass:
   style: compressed
 
@@ -196,6 +195,6 @@ author:
 # -----------------------------------------------------------------------------
 
 # Update _data/socials.yml to include:
-# github: anshgoyal19
-# linkedin: ansh-goyal
-# email: ansh.goyal@jhu.edu
+github: anshgoyal1123
+linkedin: ansh-goyal-044886217
+email: agoyal19@jh.edu

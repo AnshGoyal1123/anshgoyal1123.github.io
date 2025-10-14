@@ -1,14 +1,14 @@
 <table class="table table-cv table-sm table-borderless table-responsive">
   {% for content in entry.contents %}
     <tr>
-      <td class="p-1 pr-2 font-weight-bold">
+      <td class="cv-map-label p-1 pr-2 font-weight-bold">
         <b>{{ content.name }}</b>
       </td>
       {% if content.value %}
-        <td class="p-1 pl-2 font-weight-light text">{{ content.value }}</td>
+        <td class="cv-map-value p-1 pl-2 font-weight-light text">{{ content.value }}</td>
       {% endif %}
       {% if content.links %}
-        <td class="p-1 pl-2 font-weight-light text">
+        <td class="cv-map-value p-1 pl-2 font-weight-light text">
           <div class="container-pdf">
             {% for item in content.links %}
               {% if item.link %}

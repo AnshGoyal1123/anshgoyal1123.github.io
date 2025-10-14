@@ -1,97 +1,101 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BS/MSE in Biomedical Engineering, Minor in Computer Science
+      institution: Johns Hopkins University, Baltimore, MD
+      year: 2023 – 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Whiting School of Engineering Dean’s List (Fall 2023 – Spring 2025).
+        - Member, BME Design Team; Henderson-Hopkins Math Tutor; BMES Outreach Committee.
+    - title: High School Diploma (Valedictorian)
+      institution: Upper St. Clair High School, Pittsburgh, PA
+      year: 2019 – 2023
       description:
-        - Description 1.
-        - Description 2.
+        - National Merit Finalist.
+        - President, Speech & Debate Team; TEDx Speaker; ITEEA REACH Challenge Team Lead.
 
-- title: Experience
+- title: Research & Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Science and Automation Intern / Co-Op – Purification Development
+      institution: Regeneron Pharmaceuticals, Tarrytown, NY
+      year: Jun '25 – Dec '25
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built an automated document generation app to streamline reporting for the Preclinical Manufacturing & Process Development (PMPD) group.
+        - Designed automation for 10 unique document types across three subgroups; collaborated with a five-person developer team in an Agile workflow.
+        - Gained full-stack development experience and integrated tools across multiple internal systems.
+    - title: Undergraduate Researcher – Stroke Segmentation
+      institution: Laboratory for Computational Intensive Care Medicine, Johns Hopkins University
+      year: Jan '24 – present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed PyTorch models for ischemic stroke lesion detection and segmentation on non-contrast CT.
+        - Improved lesion localization accuracy and prepared manuscript for journal submission.
+    - title: Undergraduate Researcher – ICP Waveform Generation
+      institution: Laboratory for Computational Intensive Care Medicine, Johns Hopkins University
+      year: Jan '24 – present
       description:
+        - Validating deep learning models to predict intracranial pressure (ICP) from ABP, ECG, and PPG waveforms.
+        - Built data preprocessing pipelines and expanded models to generate synthetic ICP waveforms non-invasively.
+    - title: Design Team Member
+      institution: Tenopedics, BME Design Team 18, Johns Hopkins University
+      year: Dec '23 – Jun '24
+      description:
+        - Designed a novel cannula system for arthroscopic biceps tenodesis surgery, expanding the operative field by ~900%.
+        - Led prototyping and validation testing while engaging clinicians and engineers for iterative design feedback.
+    - title: Research Intern
+      institution: UPMC Children’s Hospital of Pittsburgh, Hillman Cancer Center Academy
+      year: Jun '22 – Aug '22
+      description:
+        - Studied effects of congenital heart disease on infant brain functional connectivity using fMRI.
+        - Built Python/NiPype processing pipelines for 140+ scans and generated correlation maps for analysis.
+    - title: Developer (Personal Project)
+      institution: Polaris App, Independent Project
+      year: Sep '25 – present
+      description:
+        - Developing a gamified iOS app for self-improvement and habit tracking using Swift and SwiftUI.
+        - Implemented daily logging, goal tracking, and a “Star Map” system linking progress to themed spaceship systems (Navigation, Crew Quarters, etc.).
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Skills
   type: list
+  grid: half
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Python
+    - C / C++ / Java
+    - Swift / SwiftUI
+    - PyTorch / TensorFlow
+    - Scikit-Learn / NumPy / Pandas
+    - Signal Processing
+    - Medical Image Analysis
+    - Git / Docker / Linux
+    - Flask / Web Development
+    - Data Analysis & Visualization
+    - Biomedical Design
+    - Communication & Public Speaking
+
+- title: Relevant Coursework
+  type: list
+  grid: half
+  contents:
+    - Machine Learning
+    - Deep Learning for Biomedical Data
+    - Data Structures & Algorithms
+    - Intermediate Programming (C/C++)
+    - Discrete Mathematics for CS
+    - Linear Algebra & Differential Equations
+    - Probability & Statistics
+    - Nonlinear Dynamics of Biological Systems
+    - Biomedical Systems & Design
+    - Signals & Systems
+    - Computational Biology
+    - Calculus III
+
+- title: Honors & Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Whiting School of Engineering Dean’s List
+    - year: 2023
+      items:
+        - Valedictorian, Upper St. Clair High School
+        - National Merit Finalist
