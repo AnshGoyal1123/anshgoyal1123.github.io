@@ -1505,3 +1505,61 @@ h1.post-title,
     transform: translateY(0);
   }
 }
+/* ==========================================================================
+   Custom Project Cards Styling
+   ========================================================================== */
+
+.projects .card {
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 5px solid #25c279; /* green accent */
+  border-radius: 12px;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.projects .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(37, 194, 121, 0.35); /* subtle green glow */
+  border-left-color: #25c279;
+}
+
+.projects .card-title {
+  color: var(--global-text-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.projects .card-text {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.projects img {
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.projects img:hover {
+  transform: scale(1.03);
+}
+
+/* Make categories look more elegant */
+.projects h2.category {
+  color: #25c279;
+  border-bottom: 2px solid #25c279;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive card layout cleanup */
+@media (max-width: 768px) {
+  .projects .card {
+    margin-bottom: 1rem;
+  }
+}

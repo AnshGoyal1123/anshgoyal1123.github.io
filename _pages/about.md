@@ -45,10 +45,8 @@ I’m also currently interning at **Regeneron Pharmaceuticals**, where I’m hel
 → That was the short version. If you’d like to read the (really) long version, click here!
 </a>
 
-<hr id="longbio-separator" style="display:none; margin:1.5em 0; border:0; border-top:1px solid #ddd;">
-
 <div id="longbio" markdown="1" style="display:none; margin-top:1.5em; line-height:1.65; animation: fadeIn 0.4s ease-in;">
-
+---
 I was born and raised in **India**, by parents who were both **PhDs in biochemistry**. We moved to the **United States in 2018** when I was in **8th grade**, and with some help from some great biology teachers, I began to shed my fascination with **astronomy** for a love of **biology** (guess it was in my DNA too...).
 
 The real breakthrough came through an internship at the **Hillman Cancer Center Academy** as a junior, where I got to work with **Dr. Rafael Ceschin** and his amazing PhD students on a project investigating the effects of **congenital heart disease on functional connectivity in the brain**. This project was where I realized the power of **data science** to provide invaluable insights into patient health, and where the seeds for my current path were planted.
@@ -84,4 +82,10 @@ If you've read this far (which I suspect maybe 3 people have), you know where I'
     margin-right: clamp(200px, 24vw, 320px);
   }
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 </style>
