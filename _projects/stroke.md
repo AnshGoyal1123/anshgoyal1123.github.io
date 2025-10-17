@@ -9,34 +9,36 @@ related_publications: false
 ---
 ## Clinical Background
 
+Acute ischemic stroke (AIS) occurs when blood flow to part of the brain is obstructed, causing rapid neuronal death and lasting neurological damage. It remains a leading cause of disability and the fifth leading cause of death worldwide. Early and accurate detection is critical for enabling time-sensitive interventions such as thrombolysis and thrombectomy.  
 
-Acute ischemic stroke (AIS) occurs when blood flow to part of the brain is obstructed, causing rapid neuronal death and lasting neurological damage. It remains a leading cause of disability and the fifth leading cause of death worldwide. Early and accurate detection is critical for enabling time-sensitive interventions such as thrombolysis and thrombectomy. 
-
-Non-contrast CT (NCCT) is the first-line imaging modality for stroke evaluation because it is fast and widely available, but ischemic lesions often appear subtle and can be missed. Usually, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1859855" target="_blank" style="color:var(--global-theme-color); text-decoration:none;">MRI is considered far superior to CT imaging for stroke detection</a>, but the increased time and resource cost accompanied by MRI imaging leads to delays in patient care. 
+Non-contrast CT (NCCT) is the first-line imaging modality for stroke evaluation because it is fast and widely available, but ischemic lesions often appear subtle and can be missed. Usually, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1859855" target="_blank" style="color:var(--global-theme-color); text-decoration:none;">MRI is considered far superior to CT imaging for stroke detection</a>, but the increased time and resource cost accompanied by MRI imaging leads to delays in patient care.  
 
 <div class="row justify-content-center mt-4">
-  <div class="col-sm-8 text-center">  <!-- was col-sm-10 -->
+  <div class="col-sm-8 text-center">
     {% include figure.liquid 
       path="assets/img/stroke_overview_1.png"
       class="img-fluid rounded z-depth-1"
       style="max-width:80%; margin:auto;" 
     %}
     <div class="caption" style="font-size:0.95em; color:var(--global-text-color-light); margin-top:0.6em;">
-      Difference between NCCT and MRI images of a stroke lesion
+      Difference between NCCT and MRI images of a stroke lesion.
     </div>
   </div>
 </div>
 
-This project explores deep learning methods to automatically detect and localize ischemic lesions on NCCT, supporting faster and more reliable diagnosis in acute care. This project explores deep learning methods to automatically detect and localize ischemic lesions on NCCT, supporting faster and more reliable diagnosis in acute care.
+This project explores deep learning methods to automatically detect and localize ischemic lesions on NCCT, supporting faster and more reliable diagnosis in acute care.
+
+<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
+  <strong style="color:#25c279;">Goal:</strong> Develop deep learning models that detect and localize ischemic strokes on NCCT with MRI-level accuracy — improving speed and reliability in acute clinical settings.
+</div>
 
 ---
 
 ## Project Overview
 
-
 This work focuses on developing an end-to-end deep learning framework for **stroke classification** and **lesion segmentation** on NCCT scans. The classification models determine the presence of stroke, while the segmentation models highlight the affected brain regions. Together, these systems aim to improve diagnostic efficiency, reduce inter-observer variability, and provide interpretable AI-assisted insights for clinicians.
 
-The project builds on a large-scale, curated dataset of paired CT and MRI scans, and leverages modern architectures such as ResNet, Vision Transformers, and 3D U-Net variants. The broader goal is to evaluate how far NCCT alone can be pushed as a tool for rapid, automated stroke assessment without reliance on more advanced imaging modalities.
+The project builds on a large-scale, curated dataset of paired CT and MRI scans, and leverages modern architectures such as ResNet, Vision Transformers, and 3D U-Net variants. The broader goal is to evaluate how far NCCT alone can be pushed as a tool for rapid, automated stroke assessment without reliance on advanced imaging modalities.
 
 <div class="row justify-content-center mt-4">
   <div class="col-sm-10 text-center">
@@ -51,17 +53,89 @@ The project builds on a large-scale, curated dataset of paired CT and MRI scans,
 </div>
 
 ---
-## Current Stage
 
+## Architecture & Workflow
+
+The workflow involves multiple data and model components that form the full stroke detection pipeline.
+
+<div class="table-responsive mt-4 mb-4">
+  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
+    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+      <tr>
+        <th style="width:35%;">Component</th>
+        <th style="width:65%;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Preprocessing Pipeline</td>
+        <td>Automated CT-MRI registration, normalization, and lesion mask generation.</td>
+      </tr>
+      <tr>
+        <td>Classification Module</td>
+        <td>ResNet and ViT-based binary classification models distinguishing healthy vs. stroke-affected scans.</td>
+      </tr>
+      <tr>
+        <td>Segmentation Module</td>
+        <td>3D Attention U-Net (AUIS) variants trained on voxel-wise labels for lesion localization.</td>
+      </tr>
+      <tr>
+        <td>Evaluation Metrics</td>
+        <td>Dice coefficient, precision/recall, lesion-wise detection rate, and volume overlap.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
+  <strong style="color:#25c279;">Impact:</strong> The proposed models demonstrated high lesion detection accuracy and robust generalization across diverse stroke subtypes and imaging conditions.
+</div>
+
+---
+
+## Current Stage
 
 Our models have achieved strong performance in both stroke detection and lesion localization. We are currently in the **manuscript preparation stage**, finalizing experiments, writing, and compiling results for journal submission.
 
 ---
 
-## Other Key Contributors
+## Tools and Technologies
 
-- **Dr. Robert D. Stevens** — Principal Investigator, Johns Hopkins University 
-- **Feng-Chiao Lee** - Department of Biomedical Engineering, Johns Hopkins University
-- **Rongxi Yi** - Department of Biomedical Engineering, Johns Hopkins University
-- **Xinyuan Fang** - Department of Computer Science, Johns Hopkins University
-- **Yanlin Wu** - Department of Biomedical Engineering, Johns Hopkins University
+<div class="table-responsive mt-4 mb-4">
+  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
+    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+      <tr>
+        <th style="width:35%;">Category</th>
+        <th style="width:65%;">Technologies Used</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Frameworks</td>
+        <td>PyTorch, MONAI</td>
+      </tr>
+      <tr>
+        <td>Languages</td>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>Data Sources</td>
+        <td>Paired NCCT–MRI datasets from Johns Hopkins</td>
+      </tr>
+      <tr>
+        <td>Metrics</td>
+        <td>Dice coefficient, sensitivity, specificity, COM distance</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+
+## Key Contributors
+
+- **Dr. Robert D. Stevens** — Principal Investigator, Johns Hopkins University  
+- **Feng-Chiao Lee** — Department of Biomedical Engineering, Johns Hopkins University  
+- **Rongxi Yi** — Department of Biomedical Engineering, Johns Hopkins University  
+- **Xinyuan Fang** — Department of Computer Science, Johns Hopkins University  
+- **Yanlin Wu** — Department of Biomedical Engineering, Johns Hopkins University

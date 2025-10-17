@@ -1,3 +1,37 @@
+- title:
+  type: map
+  contents:
+    - name: 
+        <div class="cv-header row align-items-center" style="margin-top:0.5rem; margin-bottom:0;">
+          <!-- Profile Picture -->
+          <div class="col-md-3 text-center" style="padding-right:2rem;">
+            <img src="/assets/img/prof_pic.jpg" alt="Ansh Goyal" 
+                 class="img-fluid rounded shadow-sm" 
+                 style="max-width:160px; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.25); margin-bottom:0;">
+          </div>
+
+          <!-- Basic Info -->
+          <div class="col-md-9" style="padding-left:2rem;">
+            <h1 style="margin-bottom:0.2rem; font-weight:700;">Ansh Goyal</h1>
+            <h5 style="color:var(--global-text-color-light); margin-bottom:0.4rem;">
+              Biomedical Engineering · Johns Hopkins University
+            </h5>
+            <p style="margin-bottom:0; font-size:0.95rem; line-height:1.55;">
+              <strong>Email:</strong> 
+              <a href="mailto:agoyal19@jh.edu" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">agoyal19@jh.edu</a><br>
+              
+              <strong>Location:</strong> 
+              <span style="font-weight:normal;">Pittsburgh, PA</span><br>
+              
+              <strong>LinkedIn:</strong> 
+              <a href="https://www.linkedin.com/in/ansh-goyal-044886217" target="_blank" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">Linked Here</a><br>
+              
+              <strong>GitHub:</strong> 
+              <a href="https://github.com/AnshGoyal1123" target="_blank" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">github.com/anshgoyal1123</a>
+            </p>
+          </div>
+        </div>
+
 - title: Education
   type: time_table
   contents:
@@ -5,14 +39,19 @@
       institution: Johns Hopkins University, Baltimore, MD
       year: 2023 – 2027
       description:
+        - Combined BS/MSE program at the Whiting School of Engineering, focusing on biomedical data science and machine learning.
         - Whiting School of Engineering Dean’s List (Fall 2023 – Spring 2025).
-        - Member, BME Design Team; Henderson-Hopkins Math Tutor; BMES Outreach Committee.
+        - BME Design Team
+        - Henderson-Hopkins Math Tutor
+        - Laboratory for Computational Intensive Care Medicine
     - title: High School Diploma (Valedictorian)
       institution: Upper St. Clair High School, Pittsburgh, PA
       year: 2019 – 2023
       description:
-        - National Merit Finalist.
-        - President, Speech & Debate Team; TEDx Speaker; ITEEA REACH Challenge Team Lead.
+        - Graduated Valedictorian, National Merit Finalist.
+        - President, Upper St. Clair Speech & Debate
+        - 2-time TEDxYouth @ USC Speaker
+        - ITEEA REACH Challenge Team Lead
 
 - title: Research & Professional Experience
   type: time_table
@@ -21,39 +60,51 @@
       institution: Regeneron Pharmaceuticals, Tarrytown, NY
       year: Jun '25 – Dec '25
       description:
-        - Built an automated document generation app to streamline reporting for the Preclinical Manufacturing & Process Development (PMPD) group.
-        - Designed automation for 10 unique document types across three subgroups; collaborated with a five-person developer team in an Agile workflow.
-        - Gained full-stack development experience and integrated tools across multiple internal systems.
-    - title: Undergraduate Researcher – Stroke Segmentation
+        - Designed and deployed an automated document generation system to streamline reporting for the Preclinical Manufacturing & Process Development (PMPD) group.
+        - Reduced document creation time from 30–45 minutes to under 3 minutes by integrating multiple internal databases into a centralized Flask-based automation app.
+        - Implemented Python-based PowerPoint and Word generation pipelines using <code>python-pptx</code> and <code>python-docx</code>, with automated PDF parsing and image extraction via <code>PyMuPDF</code>.
+        - Developed reusable modules following the Cosmic Python architecture to support future automation of 10+ document types across three subgroups.
+        - Collaborated within a five-person Agile team, conducted User Acceptance Testing, and directly interfaced with scientific stakeholders to iterate on design and functionality.
+
+    - title: Undergraduate Researcher – Stroke Classification & Segmentation
       institution: Laboratory for Computational Intensive Care Medicine, Johns Hopkins University
       year: Jan '24 – present
       description:
-        - Developed PyTorch models for ischemic stroke lesion detection and segmentation on non-contrast CT.
-        - Improved lesion localization accuracy and prepared manuscript for journal submission.
-    - title: Undergraduate Researcher – ICP Waveform Generation
+        - Built deep learning models for **ischemic stroke lesion detection and segmentation** on non-contrast CT scans.
+        - Implemented and compared architectures including 3D U-Net, Attention U-Net, and custom attention-modulated variants (AUIS).
+        - Trained models on large paired CT/MRI datasets and benchmarked performance using Dice, IoU, and bounding box metrics.
+        - Generated reproducible preprocessing pipelines for CT and DWI co-registration, thresholding, and label mapping.
+        - Co-authoring a manuscript for submission to *IEEE Journal of Biomedical and Health Informatics* (JBHI).
+
+    - title: Undergraduate Researcher – Non-Invasive ICP Waveform Estimation
       institution: Laboratory for Computational Intensive Care Medicine, Johns Hopkins University
       year: Jan '24 – present
       description:
-        - Validating deep learning models to predict intracranial pressure (ICP) from ABP, ECG, and PPG waveforms.
-        - Built data preprocessing pipelines and expanded models to generate synthetic ICP waveforms non-invasively.
-    - title: Design Team Member
-      institution: Tenopedics, BME Design Team 18, Johns Hopkins University
+        - Developing deep learning models to estimate intracranial pressure (ICP) from non-invasive physiological signals (ABP, ECG, PPG).
+        - Engineered data preprocessing, synchronization, and artifact rejection pipelines for MIMIC-III and PMAP datasets (~2 TB).
+        - Validated models including Transformers and LSTMs for waveform reconstruction and real-time ICP prediction.
+        - Enabled reproducible workflows using multi-GPU distributed training on the CIS HPC cluster.
+        - Supporting ongoing journal submission on real-time, risk-free ICP estimation methods.
+
+    - title: Design Team Member – Tenopedics (BME Design Team 18)
+      institution: Johns Hopkins University
       year: Dec '23 – Jun '24
       description:
-        - Designed a novel cannula system for arthroscopic biceps tenodesis surgery, expanding the operative field by ~900%.
-        - Led prototyping and validation testing while engaging clinicians and engineers for iterative design feedback.
-    - title: Research Intern
-      institution: UPMC Children’s Hospital of Pittsburgh, Hillman Cancer Center Academy
+        - Designed a **space-expanding cannula system** for arthroscopic biceps tenodesis surgery, improving visibility by ~900%.
+        - Prototyped an inflatable dual-balloon design tested in cadaveric models to expand the subdeltoid workspace.
+        - Contributed to mechanical validation testing, CAD modeling, and engineering drawings for manufacturing.
+        - Presented design outcomes to clinical mentors and presented at Johns Hopkins Design Day.
+        - Co-authored final design report submitted to the BME Design Team program.
+
+    - title: Research Intern – Hillman Cancer Center Academy
+      institution: UPMC Children’s Hospital of Pittsburgh, University of Pittsburgh Medical Center
       year: Jun '22 – Aug '22
       description:
-        - Studied effects of congenital heart disease on infant brain functional connectivity using fMRI.
-        - Built Python/NiPype processing pipelines for 140+ scans and generated correlation maps for analysis.
-    - title: Developer (Personal Project)
-      institution: Polaris App, Independent Project
-      year: Sep '25 – present
-      description:
-        - Developing a gamified iOS app for self-improvement and habit tracking using Swift and SwiftUI.
-        - Implemented daily logging, goal tracking, and a “Star Map” system linking progress to themed spaceship systems (Navigation, Crew Quarters, etc.).
+        - Investigated effects of **congenital heart disease (CHD)** on infant brain functional connectivity using resting-state fMRI.
+        - Built automated preprocessing pipelines in Python using NiPype and FSL to process 140+ scans (motion correction, registration, filtering).
+        - Computed correlation matrices and graph theory metrics (global/local efficiency, clustering coefficient) using NetworkX.
+        - Identified significant alterations in connectivity across thalamus and hippocampal regions, suggesting CHD-linked neural network reorganization.
+        - Presented findings at the Hillman Academy Research Symposium.
 
 - title: Skills
   type: list
@@ -68,9 +119,9 @@
     - Medical Image Analysis
     - Git / Docker / Linux
     - Flask / Web Development
-    - Data Analysis & Visualization
     - Biomedical Design
-    - Communication & Public Speaking
+    - Data Analysis & Visualization
+    - Scientific Writing & Presentation
 
 - title: Relevant Coursework
   type: list
@@ -80,12 +131,12 @@
     - Deep Learning for Biomedical Data
     - Data Structures & Algorithms
     - Intermediate Programming (C/C++)
-    - Discrete Mathematics for CS
+    - Discrete Mathematics for Computer Science
     - Linear Algebra & Differential Equations
     - Probability & Statistics
     - Nonlinear Dynamics of Biological Systems
-    - Biomedical Systems & Design
     - Signals & Systems
+    - Biomedical Systems & Design
     - Computational Biology
     - Calculus III
 
@@ -94,8 +145,10 @@
   contents:
     - year: 2025
       items:
-        - Whiting School of Engineering Dean’s List
+        - Whiting School of Engineering Dean’s List (Fall 2023 through Spring 2025)
     - year: 2023
       items:
         - Valedictorian, Upper St. Clair High School
         - National Merit Finalist
+        - NSDA Academic All American
+        - NSDA Degree of Premier Distinction

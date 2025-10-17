@@ -27,7 +27,6 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-
 Hi! I'm **Ansh Goyal**, a junior studying **Biomedical Engineering** at **Johns Hopkins University**, pursuing the **3+1 BS/MSE program**.  
 
 My interests lie at the intersection of **machine learning and healthcare**, and most of my work focuses on building models that help uncover hidden insights in patient data to improve the standard of care.  

@@ -1,7 +1,9 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /out_the_lab/
 title: Outside The Lab
-nav: true
+nav: false
 nav_order: 6
 ---
+---
+
