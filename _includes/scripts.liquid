@@ -3,7 +3,9 @@
 {% assign jquery_integrity = site.third_party_libraries.jquery.integrity.js | default: 'sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=' %}
 <script
   src="{{ jquery_js }}"
-  {% if jquery_integrity %}integrity="{{ jquery_integrity }}"{% endif %}
+  {% if jquery_integrity %}
+    integrity="{{ jquery_integrity }}"
+  {% endif %}
   crossorigin="anonymous"
 ></script>
 
@@ -14,7 +16,9 @@
   {% assign mdb_integrity = site.third_party_libraries.mdb.integrity.js %}
   <script
     src="{{ mdb_js }}"
-    {% if mdb_integrity %}integrity="{{ mdb_integrity }}"{% endif %}
+    {% if mdb_integrity %}
+      integrity="{{ mdb_integrity }}"
+    {% endif %}
     crossorigin="anonymous"
   ></script>
 {% endif %}

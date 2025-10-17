@@ -27,11 +27,12 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-Hi! I'm **Ansh Goyal**, a junior studying **Biomedical Engineering** at **Johns Hopkins University**, pursuing the **3+1 BS/MSE program**.  
 
-My interests lie at the intersection of **machine learning and healthcare**, and most of my work focuses on building models that help uncover hidden insights in patient data to improve the standard of care.  
+Hi! I'm **Ansh Goyal**, a junior studying **Biomedical Engineering** at **Johns Hopkins University**, pursuing the **3+1 BS/MSE program**.
 
-I conduct research with the [Laboratory for Computational Intensive Care Medicine](https://lcicm.jhmi.edu/people.html) under **Dr. Robert Stevens**, where I’m working on two projects involving **deep learning for neurosurgical applications** (read more on my [projects page](/projects/)).  
+My interests lie at the intersection of **machine learning and healthcare**, and most of my work focuses on building models that help uncover hidden insights in patient data to improve the standard of care.
+
+I conduct research with the [Laboratory for Computational Intensive Care Medicine](https://lcicm.jhmi.edu/people.html) under **Dr. Robert Stevens**, where I’m working on two projects involving **deep learning for neurosurgical applications** (read more on my [projects page](/projects/)).
 
 I’m also currently interning at **Regeneron Pharmaceuticals**, where I’m helping automate internal reporting processes within the **Preclinical Manufacturing and Process Development** department.
 
@@ -45,7 +46,7 @@ I’m also currently interning at **Regeneron Pharmaceuticals**, where I’m hel
 </a>
 
 <div id="longbio" markdown="1" style="display:none; margin-top:1.5em; line-height:1.65; animation: fadeIn 0.4s ease-in;">
----
+
 I was born and raised in **India**, by parents who were both **PhDs in biochemistry**. We moved to the **United States in 2018** when I was in **8th grade**, and with some help from some great biology teachers, I began to shed my fascination with **astronomy** for a love of **biology** (guess it was in my DNA too...).
 
 The real breakthrough came through an internship at the **Hillman Cancer Center Academy** as a junior, where I got to work with **Dr. Rafael Ceschin** and his amazing PhD students on a project investigating the effects of **congenital heart disease on functional connectivity in the brain**. This project was where I realized the power of **data science** to provide invaluable insights into patient health, and where the seeds for my current path were planted.
@@ -54,9 +55,9 @@ From there I knew the path for me was **biomedical engineering**, and fortunatel
 
 While I've had some **technical experience** through my research and projects, I think my greatest strength is the **speed at which I'm able to pick up new skills and adapt to new situations**. If I don't know something (so most things...), I'm always willing to learn and improve on it, and am able to do so quite fast. I also enjoy **working in and leading teams** and am adept at **communicating with people** (some neat skills I picked up through four invigorating and arduous years as a **high school debater**).
 
-If you've read this far (which I suspect maybe 3 people have), you know where I've been. As for where I'm going, I'm not so sure either. I'm still working on that. If you're a recruiter or PI reading this, maybe you could help me figure it out! What I do know is that I want to keep solving problems, learning things, and helping people. After all, *when you help someone, you help everyone...*
-</div>
+If you've read this far (which I suspect maybe 3 people have), you know where I've been. As for where I'm going, I'm not so sure either. I'm still working on that. If you're a recruiter or PI reading this, maybe you could help me figure it out! What I do know is that I want to keep solving problems, learning things, and helping people. After all, _when you help someone, you help everyone..._
 
+</div>
 
 <style>
 .about-header {

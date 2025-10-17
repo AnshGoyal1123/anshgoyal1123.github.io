@@ -61,9 +61,7 @@ $(document).ready(function () {
 // Provide a vanilla JS fallback for navbar toggles when Bootstrap's jQuery plugin is unavailable.
 document.addEventListener("DOMContentLoaded", function () {
   var bootstrapCollapseAvailable =
-    typeof window.jQuery !== "undefined" &&
-    typeof window.jQuery.fn !== "undefined" &&
-    typeof window.jQuery.fn.collapse !== "undefined";
+    typeof window.jQuery !== "undefined" && typeof window.jQuery.fn !== "undefined" && typeof window.jQuery.fn.collapse !== "undefined";
 
   if (bootstrapCollapseAvailable) {
     return;

@@ -6,7 +6,9 @@ importance: 2
 category: research
 giscus_comments: false
 ---
+
 ---
+
 ## Clinical Background
 
 Intracranial pressure (ICP) reflects the pressure within the skull and is a critical physiological variable in patients with traumatic brain injury. Sustained elevations can cause long-term damage and even be fatal, so continuous monitoring is essential.
@@ -136,6 +138,6 @@ Our team has completed large-scale data preprocessing and multi-signal synchroni
 
 ## Key Contributors
 
-- **Dr. Robert D. Stevens** — Principal Investigator, Johns Hopkins University  
-- **Veet Zaveri** — Department of Computer Science, Johns Hopkins University  
+- **Dr. Robert D. Stevens** — Principal Investigator, Johns Hopkins University
+- **Veet Zaveri** — Department of Computer Science, Johns Hopkins University
 - **Carl Harris** — Department of Biomedical Engineering, Johns Hopkins University

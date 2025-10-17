@@ -1,35 +1,34 @@
 - title:
   type: map
   contents:
-    - name: 
-        <div class="cv-header row align-items-center" style="margin-top:0.5rem; margin-bottom:0;">
-          <!-- Profile Picture -->
-          <div class="col-md-3 text-center" style="padding-right:2rem;">
-            <img src="/assets/img/prof_pic.jpg" alt="Ansh Goyal" 
-                 class="img-fluid rounded shadow-sm" 
-                 style="max-width:160px; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.25); margin-bottom:0;">
-          </div>
+    - name: <div class="cv-header row align-items-center" style="margin-top:0.5rem; margin-bottom:0;">
+        <!-- Profile Picture -->
+        <div class="col-md-3 text-center" style="padding-right:2rem;">
+        <img src="/assets/img/prof_pic.jpg" alt="Ansh Goyal"
+        class="img-fluid rounded shadow-sm"
+        style="max-width:160px; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.25); margin-bottom:0;">
+        </div>
 
-          <!-- Basic Info -->
-          <div class="col-md-9" style="padding-left:2rem;">
-            <h1 style="margin-bottom:0.2rem; font-weight:700;">Ansh Goyal</h1>
-            <h5 style="color:var(--global-text-color-light); margin-bottom:0.4rem;">
-              Biomedical Engineering · Johns Hopkins University
-            </h5>
-            <p style="margin-bottom:0; font-size:0.95rem; line-height:1.55;">
-              <strong>Email:</strong> 
-              <a href="mailto:agoyal19@jh.edu" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">agoyal19@jh.edu</a><br>
-              
-              <strong>Location:</strong> 
-              <span style="font-weight:normal;">Pittsburgh, PA</span><br>
-              
-              <strong>LinkedIn:</strong> 
-              <a href="https://www.linkedin.com/in/ansh-goyal-044886217" target="_blank" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">Linked Here</a><br>
-              
-              <strong>GitHub:</strong> 
-              <a href="https://github.com/AnshGoyal1123" target="_blank" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">github.com/anshgoyal1123</a>
-            </p>
-          </div>
+        <!-- Basic Info -->
+        <div class="col-md-9" style="padding-left:2rem;">
+        <h1 style="margin-bottom:0.2rem; font-weight:700;">Ansh Goyal</h1>
+        <h5 style="color:var(--global-text-color-light); margin-bottom:0.4rem;">
+        Biomedical Engineering · Johns Hopkins University
+        </h5>
+        <p style="margin-bottom:0; font-size:0.95rem; line-height:1.55;">
+        <strong>Email:</strong>
+        <a href="mailto:agoyal19@jh.edu" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">agoyal19@jh.edu</a><br>
+
+        <strong>Location:</strong>
+        <span style="font-weight:normal;">Pittsburgh, PA</span><br>
+
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/ansh-goyal-044886217" target="_blank" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">Linked Here</a><br>
+
+        <strong>GitHub:</strong>
+        <a href="https://github.com/AnshGoyal1123" target="_blank" style="color:var(--global-theme-color); text-decoration:none; font-weight:normal;">github.com/anshgoyal1123</a>
+        </p>
+        </div>
         </div>
 
 - title: Education

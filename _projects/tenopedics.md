@@ -5,10 +5,12 @@ img: assets/img/tenodesis.jpg
 importance: 2
 category: build
 ---
+
 ---
+
 ## Clinical Background
 
-**Biceps tendonitis** is a painful inflammatory condition of the long head of the biceps tendon, often affecting athletes and older adults. In severe cases, surgical intervention known as **biceps tenodesis** is required, where the damaged tendon is detached and reattached to the humerus.  
+**Biceps tendonitis** is a painful inflammatory condition of the long head of the biceps tendon, often affecting athletes and older adults. In severe cases, surgical intervention known as **biceps tenodesis** is required, where the damaged tendon is detached and reattached to the humerus.
 
 Two major surgical methods exist: **open biceps tenodesis (OBT)** and **arthroscopic biceps tenodesis (ABT)**.  
 While ABT offers reduced post-operative pain and faster recovery, many surgeons still prefer OBT due to the **tight subdeltoid space** that restricts visualization and tool maneuverability during arthroscopic procedures. This limitation makes key steps—particularly **suture passing and tendon fixation**—technically demanding and time-consuming.
@@ -115,9 +117,9 @@ Two transparent **polyurethane balloons** are guided through curved side channel
 
 ## Results and Impact
 
-- **Force tolerance:** Sustained >20 N without deformation when filled with saline.  
-- **Space expansion:** Increased visible surgical field area by ~900%.  
-- **Ease of use:** Reduced surgeon workload and procedure time during the critical suture-passing phase.  
+- **Force tolerance:** Sustained >20 N without deformation when filled with saline.
+- **Space expansion:** Increased visible surgical field area by ~900%.
+- **Ease of use:** Reduced surgeon workload and procedure time during the critical suture-passing phase.
 
 By improving visualization and maneuverability, this device aims to **reduce the learning curve for arthroscopic biceps tenodesis**, encouraging wider adoption of minimally invasive techniques and improving patient outcomes.
 
@@ -134,4 +136,4 @@ By improving visualization and maneuverability, this device aims to **reduce the
 - **Rishi Koneru** - Department of Biomedical Engineering, Johns Hopkins University
 - **Veatriki Benou** - Department of Biomedical Engineering, Johns Hopkins University
 - **Michelle Zwernemann** - Department of Biomedical Engineering, Johns Hopkins University
-- **Dr. Matthew Best** — Department of Orthopaedic Surgery, Johns Hopkins University School of Medicine  
+- **Dr. Matthew Best** — Department of Orthopaedic Surgery, Johns Hopkins University School of Medicine

@@ -5,7 +5,9 @@ img: assets/img/chd.jpg
 importance: 3
 category: research
 ---
+
 ---
+
 ## Clinical Background
 
 Congenital Heart Disease (CHD) refers to structural heart defects present at birth that can lead to chronic neurocognitive impairments. Children with CHD are known to experience delayed brain development and cognitive deficits, but the underlying neural mechanisms remain poorly understood.
@@ -87,7 +89,7 @@ Brain regions were defined using the **Automated Anatomical Labeling (AAL3) Atla
 
 After quality assessment, **92 usable scans** (37 CHD, 55 control) were analyzed. We found that global efficiency remained similar across groups, but several regional metrics showed significant differences:
 
-- **Increased local efficiency** in the thalamus, lingual gyrus, and superior temporal gyrus among CHD patients.  
+- **Increased local efficiency** in the thalamus, lingual gyrus, and superior temporal gyrus among CHD patients.
 - **Decreased clustering coefficients** in the hippocampus, precuneus, postcentral gyrus, insula, and superior parietal gyrus.
 
 These findings suggest that CHD alters key properties of the brain’s functional network—shifting the balance between local specialization and global communication. Increased local efficiency implies more isolated regional processing, while decreased clustering reflects weakened inter-regional integration.
@@ -136,7 +138,8 @@ These findings suggest that CHD alters key properties of the brain’s functiona
 ---
 
 ## Key Contributors
-- **Dr. Rafael Ceschin** — Department of Biomedical Informatics, University of Pittsburgh  
-- **Joy Roy** — Department of Biomedical Informatics, University of Pittsburgh  
-- **William Reynolds** — Department of Biomedical Informatics, University of Pittsburgh  
+
+- **Dr. Rafael Ceschin** — Department of Biomedical Informatics, University of Pittsburgh
+- **Joy Roy** — Department of Biomedical Informatics, University of Pittsburgh
+- **William Reynolds** — Department of Biomedical Informatics, University of Pittsburgh
 - **Dr. Ashok Panigrahy** — Department of Radiology, UPMC Children’s Hospital of Pittsburgh

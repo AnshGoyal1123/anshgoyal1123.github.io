@@ -5,23 +5,23 @@
 @use "sass:color";
 
 // Core colors
-$red-color: #e63045 !default;          // vivid red accent
+$red-color: #e63045 !default; // vivid red accent
 $red-color-dark: #b91d33 !default;
 
-$orange-color: #c79c40 !default;       // warm gold-yellow accent
+$orange-color: #c79c40 !default; // warm gold-yellow accent
 
-$blue-color: #5c92f6 !default;         // Hopkins blue (primary)
+$blue-color: #5c92f6 !default; // Hopkins blue (primary)
 $blue-color-dark: #5c92f6 !default;
 
-$cyan-color: #00e5ff !default;         // optional for contrast charts
+$cyan-color: #00e5ff !default; // optional for contrast charts
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 
-$green-color: #25c279 !default;        // bright green accent
+$green-color: #25c279 !default; // bright green accent
 $green-color-dark: #1e9f63 !default;
 $green-color-light: #2de88f !default;
 $green-color-bright: #25c279 !default;
 
-$purple-color: #aa2fd6 !default;       // violet accent
+$purple-color: #aa2fd6 !default; // violet accent
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 
 $pink-color: #ff4081 !default;
@@ -29,12 +29,12 @@ $pink-color-light: #ffe1f0 !default;
 $yellow-color: #c79c40 !default;
 
 // Greys / neutrals
-$grey-color: #a0a0a5 !default;         // muted grey text
+$grey-color: #a0a0a5 !default; // muted grey text
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1a1c23 !default;    // near-black section bg
-$grey-900: #0f1117 !default;           // true background
+$grey-color-dark: #1a1c23 !default; // near-black section bg
+$grey-900: #0f1117 !default; // true background
 
-$white-color: #f5f6fa !default;        // off-white text
+$white-color: #f5f6fa !default; // off-white text
 $black-color: #000000 !default;
 
 // Code and highlight backgrounds

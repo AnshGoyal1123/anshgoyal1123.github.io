@@ -5,7 +5,9 @@ img: assets/img/regn.jpg
 importance: 1
 category: build
 ---
+
 ---
+
 ## Project Overview
 
 Regeneron Pharmaceuticals maintains one of the fastest **research and development pipelines** in the biotechnology industry. However, a major bottleneck lies in **documentation** — scientists and engineers spend **30–45 minutes** creating a single report, most of which involves gathering data from multiple systems and reformatting it into internal templates.
@@ -79,10 +81,10 @@ The application was developed in **Python** using a modular structure inspired b
 
 The system operates through a **command–handler pattern**:
 
-1. **User Input** – Scientists select a report type, provide identifiers or uploads.  
-2. **Command Creation** – Input is converted into a structured command object.  
-3. **Handler Execution** – Command is processed by a handler that collects data from multiple databases.  
-4. **Document Generation** – The template system compiles and formats the final report.  
+1. **User Input** – Scientists select a report type, provide identifiers or uploads.
+2. **Command Creation** – Input is converted into a structured command object.
+3. **Handler Execution** – Command is processed by a handler that collects data from multiple databases.
+4. **Document Generation** – The template system compiles and formats the final report.
 5. **Output Delivery** – Generated file is returned to the user via the interface.
 
 This design allowed each document type to have its own modular handler, making the system **scalable** and **easy to maintain** as more templates were added.
@@ -93,25 +95,29 @@ This design allowed each document type to have its own modular handler, making t
 
 I joined when a minimal version of the tool existed (supporting two document types). My work focused on expanding functionality, improving structure, and implementing entirely new capabilities.
 
-### PowerPoint Generation Module  
-- Added full PowerPoint automation — the first of its kind in the app.  
-- Designed utilities for slide creation, text placement, and image resizing.  
-- Built a PDF parsing pipeline for extracting tables and figures to integrate into slides.  
+### PowerPoint Generation Module
+
+- Added full PowerPoint automation — the first of its kind in the app.
+- Designed utilities for slide creation, text placement, and image resizing.
+- Built a PDF parsing pipeline for extracting tables and figures to integrate into slides.
 - Created a reusable framework for future presentation-style reports.
 
-### Word Report Integration  
-- Added multi-database connectivity to fetch molecule and experiment data dynamically.  
-- Implemented conditional content logic (sections appear/disappear based on data).  
+### Word Report Integration
+
+- Added multi-database connectivity to fetch molecule and experiment data dynamically.
+- Implemented conditional content logic (sections appear/disappear based on data).
 - Improved document standardization and automated error handling.
 
-### Infrastructure & Codebase Improvements  
-- Refactored existing modules for maintainability and readability.  
-- Reorganized utility functions into shared services to reduce duplication.  
+### Infrastructure & Codebase Improvements
+
+- Refactored existing modules for maintainability and readability.
+- Reorganized utility functions into shared services to reduce duplication.
 - Enhanced user experience with cleaner interfaces and better validation.
 
-### User Acceptance Testing (UAT)  
-- Led UAT sessions with scientists and team leads to gather feedback.  
-- Debugged live during sessions to resolve logic and formatting issues.  
+### User Acceptance Testing (UAT)
+
+- Led UAT sessions with scientists and team leads to gather feedback.
+- Debugged live during sessions to resolve logic and formatting issues.
 - Integrated real-world feedback into release-ready builds.
 
 <div class="highlight-box">
@@ -124,9 +130,9 @@ I joined when a minimal version of the tool existed (supporting two document typ
 
 The project followed an **Agile workflow** with two-week sprints.
 
-- **Phase 1 (3 weeks):** Onboarding, architecture review, and system setup.  
-- **Phase 2 (3.5 months):** Development of the PowerPoint generation module and PDF extraction tools.  
-- **Phase 3 (2 months):** Word report integration with multi-database inputs.  
+- **Phase 1 (3 weeks):** Onboarding, architecture review, and system setup.
+- **Phase 2 (3.5 months):** Development of the PowerPoint generation module and PDF extraction tools.
+- **Phase 3 (2 months):** Word report integration with multi-database inputs.
 - **Phase 4 (1 month):** UAT, interface refinement, and deployment stabilization.
 
 ---

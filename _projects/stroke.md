@@ -6,12 +6,14 @@ importance: 1
 category: research
 related_publications: false
 ---
+
 ---
+
 ## Clinical Background
 
-Acute ischemic stroke (AIS) occurs when blood flow to part of the brain is obstructed, causing rapid neuronal death and lasting neurological damage. It remains a leading cause of disability and the fifth leading cause of death worldwide. Early and accurate detection is critical for enabling time-sensitive interventions such as thrombolysis and thrombectomy.  
+Acute ischemic stroke (AIS) occurs when blood flow to part of the brain is obstructed, causing rapid neuronal death and lasting neurological damage. It remains a leading cause of disability and the fifth leading cause of death worldwide. Early and accurate detection is critical for enabling time-sensitive interventions such as thrombolysis and thrombectomy.
 
-Non-contrast CT (NCCT) is the first-line imaging modality for stroke evaluation because it is fast and widely available, but ischemic lesions often appear subtle and can be missed. Usually, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1859855" target="_blank" style="color:var(--global-theme-color); text-decoration:none;">MRI is considered far superior to CT imaging for stroke detection</a>, but the increased time and resource cost accompanied by MRI imaging leads to delays in patient care.  
+Non-contrast CT (NCCT) is the first-line imaging modality for stroke evaluation because it is fast and widely available, but ischemic lesions often appear subtle and can be missed. Usually, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1859855" target="_blank" style="color:var(--global-theme-color); text-decoration:none;">MRI is considered far superior to CT imaging for stroke detection</a>, but the increased time and resource cost accompanied by MRI imaging leads to delays in patient care.
 
 <div class="row justify-content-center mt-4">
   <div class="col-sm-8 text-center">
@@ -134,8 +136,8 @@ Our models have achieved strong performance in both stroke detection and lesion 
 
 ## Key Contributors
 
-- **Dr. Robert D. Stevens** — Principal Investigator, Johns Hopkins University  
-- **Feng-Chiao Lee** — Department of Biomedical Engineering, Johns Hopkins University  
-- **Rongxi Yi** — Department of Biomedical Engineering, Johns Hopkins University  
-- **Xinyuan Fang** — Department of Computer Science, Johns Hopkins University  
+- **Dr. Robert D. Stevens** — Principal Investigator, Johns Hopkins University
+- **Feng-Chiao Lee** — Department of Biomedical Engineering, Johns Hopkins University
+- **Rongxi Yi** — Department of Biomedical Engineering, Johns Hopkins University
+- **Xinyuan Fang** — Department of Computer Science, Johns Hopkins University
 - **Yanlin Wu** — Department of Biomedical Engineering, Johns Hopkins University

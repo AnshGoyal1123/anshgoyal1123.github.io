@@ -42,9 +42,9 @@ layout: default
             <div class="cv-card-row">
               {% assign open_half_row = 'true' %}
           {% endif %}
-          {% assign card_classes = "card mt-3 p-3" %}
+          {% assign card_classes = 'card mt-3 p-3' %}
           {% if entry.grid %}
-            {% assign card_classes = card_classes | append: " cv-card-" | append: entry.grid %}
+            {% assign card_classes = card_classes | append: ' cv-card-' | append: entry.grid %}
           {% endif %}
           <div class="{{ card_classes }}">
             <span class="cv-anchor" id="{{ entry.title }}"></span>
@@ -119,9 +119,9 @@ layout: default
             <div class="cv-card-row">
               {% assign open_half_row = 'true' %}
           {% endif %}
-          {% assign card_classes = "card mt-3 p-3" %}
+          {% assign card_classes = 'card mt-3 p-3' %}
           {% if data[1].grid %}
-            {% assign card_classes = card_classes | append: " cv-card-" | append: data[1].grid %}
+            {% assign card_classes = card_classes | append: ' cv-card-' | append: data[1].grid %}
           {% endif %}
           <div class="{{ card_classes }}">
             <span class="cv-anchor" id="{{ data[0] }}"></span>
