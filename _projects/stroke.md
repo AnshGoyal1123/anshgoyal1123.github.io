@@ -28,8 +28,8 @@ Non-contrast CT (NCCT) is the first-line imaging modality for stroke evaluation 
 
 This project explores deep learning methods to automatically detect and localize ischemic lesions on NCCT, supporting faster and more reliable diagnosis in acute care.
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Goal:</strong> Develop deep learning models that detect and localize ischemic strokes on NCCT with MRI-level accuracy — improving speed and reliability in acute clinical settings.
+<div class="highlight-box">
+  <strong>Goal:</strong> Develop deep learning models that detect and localize ischemic strokes on NCCT with MRI-level accuracy — improving speed and reliability in acute clinical settings.
 </div>
 
 ---
@@ -59,8 +59,8 @@ The project builds on a large-scale, curated dataset of paired CT and MRI scans,
 The workflow involves multiple data and model components that form the full stroke detection pipeline.
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:35%;">Component</th>
         <th style="width:65%;">Description</th>
@@ -87,8 +87,8 @@ The workflow involves multiple data and model components that form the full stro
   </table>
 </div>
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Impact:</strong> The proposed models demonstrated high lesion detection accuracy and robust generalization across diverse stroke subtypes and imaging conditions.
+<div class="highlight-box">
+  <strong>Impact:</strong> The proposed models demonstrated high lesion detection accuracy and robust generalization across diverse stroke subtypes and imaging conditions.
 </div>
 
 ---
@@ -102,8 +102,8 @@ Our models have achieved strong performance in both stroke detection and lesion 
 ## Tools and Technologies
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:35%;">Category</th>
         <th style="width:65%;">Technologies Used</th>

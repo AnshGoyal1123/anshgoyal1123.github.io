@@ -18,8 +18,8 @@ This project focused on building an **automated document generation system** tha
 
 Hundreds of molecule candidates pass through evaluation each year. Each stage requires detailed reporting for data transfer, compliance, and quality assurance. By automating this repetitive and error-prone work, we aimed to free up scientists to focus on **data analysis and experiment design**, not paperwork.
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Goal:</strong> Build a system that reduces documentation time from 30–45 minutes to under 3 minutes while maintaining full accuracy and standardization.
+<div class="highlight-box">
+  <strong>Goal:</strong> Build a system that reduces documentation time from 30–45 minutes to under 3 minutes while maintaining full accuracy and standardization.
 </div>
 
 ---
@@ -41,8 +41,8 @@ The application was developed in **Python** using a modular structure inspired b
 </div>
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:40%;">Component</th>
         <th style="width:60%;">Purpose / Technology</th>
@@ -114,8 +114,8 @@ I joined when a minimal version of the tool existed (supporting two document typ
 - Debugged live during sessions to resolve logic and formatting issues.  
 - Integrated real-world feedback into release-ready builds.
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Impact:</strong> Added two new document types, improved system reliability, added aesthetic touches to the user interface, supported other developers, and reduced report creation time by ~90%.
+<div class="highlight-box">
+  <strong>Impact:</strong> Added two new document types, improved system reliability, added aesthetic touches to the user interface, supported other developers, and reduced report creation time by ~90%.
 </div>
 
 ---
@@ -134,8 +134,8 @@ The project followed an **Agile workflow** with two-week sprints.
 ## Tools and Technologies
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:35%;">Category</th>
         <th style="width:65%;">Technologies Used</th>

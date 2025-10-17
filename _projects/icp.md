@@ -28,8 +28,8 @@ Currently, ICP is measured **invasively** using intraventricular drains or intra
 
 This project explores **deep learning-based approaches** to estimate ICP waveforms directly from non-invasive physiological signals—such as arterial blood pressure (ABP), electrocardiography (ECG), and photoplethysmography (PPG)—aiming to enable continuous, risk-free monitoring in both critical and general care settings.
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Goal:</strong> Develop a scalable, non-invasive ICP monitoring model using synchronized multi-signal deep learning to replace traditional invasive sensors.
+<div class="highlight-box">
+  <strong>Goal:</strong> Develop a scalable, non-invasive ICP monitoring model using synchronized multi-signal deep learning to replace traditional invasive sensors.
 </div>
 
 ---
@@ -53,8 +53,8 @@ This project builds upon <a href="https://www.sciencedirect.com/science/article/
 Our work addresses these issues through a nearly **70× larger dataset** by integrating the **MIMIC-III Waveform Database** with **Johns Hopkins’ PMAP dataset** for external validation. We aim to both **reproduce** and **extend** the original models, identifying the most robust architectures for real-world generalization.
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:35%;">Component</th>
         <th style="width:65%;">Description</th>
@@ -85,8 +85,8 @@ Our work addresses these issues through a nearly **70× larger dataset** by inte
   </table>
 </div>
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Impact:</strong> Establishes a reproducible, data-driven framework for non-invasive ICP estimation that could reduce infection risks and expand access to neurological monitoring.
+<div class="highlight-box">
+  <strong>Impact:</strong> Establishes a reproducible, data-driven framework for non-invasive ICP estimation that could reduce infection risks and expand access to neurological monitoring.
 </div>
 
 ---
@@ -100,8 +100,8 @@ Our team has completed large-scale data preprocessing and multi-signal synchroni
 ## Tools and Technologies
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:35%;">Category</th>
         <th style="width:65%;">Technologies Used</th>

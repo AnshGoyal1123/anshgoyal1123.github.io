@@ -1,17 +1,23 @@
 <!-- jQuery -->
+{% assign jquery_js = site.third_party_libraries.jquery.url.js | default: 'https://code.jquery.com/jquery-3.6.0.min.js' %}
+{% assign jquery_integrity = site.third_party_libraries.jquery.integrity.js | default: 'sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=' %}
 <script
-  src="{{ site.third_party_libraries.jquery.url.js }}"
-  integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
+  src="{{ jquery_js }}"
+  {% if jquery_integrity %}integrity="{{ jquery_integrity }}"{% endif %}
   crossorigin="anonymous"
 ></script>
 
 <!-- Bootsrap & MDB scripts -->
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
-<script
-  src="{{ site.third_party_libraries.mdb.url.js }}"
-  integrity="{{ site.third_party_libraries.mdb.integrity.js }}"
-  crossorigin="anonymous"
-></script>
+{% assign mdb_js = site.third_party_libraries.mdb.url.js %}
+{% if mdb_js %}
+  {% assign mdb_integrity = site.third_party_libraries.mdb.integrity.js %}
+  <script
+    src="{{ mdb_js }}"
+    {% if mdb_integrity %}integrity="{{ mdb_integrity }}"{% endif %}
+    crossorigin="anonymous"
+  ></script>
+{% endif %}
 
 {% if site.enable_masonry %}
   <!-- Masonry & imagesLoaded -->

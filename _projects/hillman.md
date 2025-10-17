@@ -24,8 +24,8 @@ Congenital Heart Disease (CHD) refers to structural heart defects present at bir
 
 This study investigated how CHD affects **functional brain connectivity**—the statistical relationship between activity in spatially distinct brain regions. Using resting-state fMRI (rs-fMRI), we aimed to identify alterations in connectivity patterns between CHD patients and age-matched healthy controls.
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Goal:</strong> Determine how congenital heart disease alters large-scale brain network organization and evaluate whether rs-fMRI can serve as a potential diagnostic tool.
+<div class="highlight-box">
+  <strong>Goal:</strong> Determine how congenital heart disease alters large-scale brain network organization and evaluate whether rs-fMRI can serve as a potential diagnostic tool.
 </div>
 
 ---
@@ -37,8 +37,8 @@ We analyzed blood-oxygen-level-dependent (BOLD) imaging data to assess global an
 Brain regions were defined using the **Automated Anatomical Labeling (AAL3) Atlas**. For each participant, regional activity correlations were computed to form a full-brain connectivity matrix. From this, we derived graph-theoretic metrics—including **global efficiency**, **local efficiency**, and **clustering coefficient**—to quantify information flow and network segregation across brain regions.
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:35%;">Pipeline Step</th>
         <th style="width:65%;">Description / Tool Used</th>
@@ -92,8 +92,8 @@ After quality assessment, **92 usable scans** (37 CHD, 55 control) were analyzed
 
 These findings suggest that CHD alters key properties of the brain’s functional network—shifting the balance between local specialization and global communication. Increased local efficiency implies more isolated regional processing, while decreased clustering reflects weakened inter-regional integration.
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color:#25c279;">Impact:</strong> Demonstrated that rs-fMRI can detect connectivity alterations caused by CHD, supporting its potential as a non-invasive biomarker for pediatric diagnosis.
+<div class="highlight-box">
+  <strong>Impact:</strong> Demonstrated that rs-fMRI can detect connectivity alterations caused by CHD, supporting its potential as a non-invasive biomarker for pediatric diagnosis.
 </div>
 
 ---
@@ -101,8 +101,8 @@ These findings suggest that CHD alters key properties of the brain’s functiona
 ## Tools and Technologies
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:35%;">Category</th>
         <th style="width:65%;">Technologies Used</th>

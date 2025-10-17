@@ -1505,6 +1505,35 @@ h1.post-title,
     transform: translateY(0);
   }
 }
+
+.highlight-box {
+  border-left: 4px solid var(--global-theme-color);
+  background-color: var(--global-theme-color-soft);
+  padding: 1em 1.5em;
+  border-radius: 6px;
+  margin: 1.5em 0;
+
+  strong {
+    color: var(--global-theme-color);
+  }
+}
+
+.accent-table {
+  font-size: 0.95rem;
+  border-color: var(--global-divider-color);
+  color: var(--global-text-color);
+  background-color: var(--global-card-bg-color);
+
+  thead {
+    background-color: var(--global-theme-color-soft);
+    color: var(--global-text-color);
+  }
+
+  th {
+    border-color: var(--global-divider-color);
+  }
+}
+
 /* ==========================================================================
    Custom Project Cards Styling
    ========================================================================== */
@@ -1512,7 +1541,7 @@ h1.post-title,
 .projects .card {
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
-  border-left: 5px solid #25c279; /* green accent */
+  border-left: 5px solid var(--global-theme-color);
   border-radius: 12px;
   transition: all 0.25s ease-in-out;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
@@ -1521,8 +1550,8 @@ h1.post-title,
 
 .projects .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 20px rgba(37, 194, 121, 0.35); /* subtle green glow */
-  border-left-color: #25c279;
+  box-shadow: 0 4px 20px var(--global-theme-shadow-color);
+  border-left-color: var(--global-theme-color);
 }
 
 .projects .card-title {
@@ -1548,8 +1577,8 @@ h1.post-title,
 
 /* Make categories look more elegant */
 .projects h2.category {
-  color: #25c279;
-  border-bottom: 2px solid #25c279;
+  color: var(--global-theme-color);
+  border-bottom: 2px solid var(--global-theme-color);
   text-transform: capitalize;
   font-weight: 600;
   text-align: left;

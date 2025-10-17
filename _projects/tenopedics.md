@@ -59,8 +59,8 @@ The expander cannula was engineered to meet key surgical and ergonomic requireme
 Two transparent **polyurethane balloons** are guided through curved side channels of the cannula and inflated with saline, expanding the working space by up to **20 mm** without obstructing tool movement or the arthroscope’s field of view.
 
 <div class="table-responsive mt-4 mb-4">
-  <table class="table table-bordered" style="font-size:0.95em; border-color:var(--global-divider-color); color:var(--global-text-color); background-color:var(--global-card-bg-color);">
-    <thead style="background-color:rgba(37,194,121,0.25); color:var(--global-text-color);">
+  <table class="table table-bordered accent-table">
+    <thead>
       <tr>
         <th style="width:45%;">Design Requirement</th>
         <th style="width:55%;">Specification / Performance Metric</th>
@@ -91,8 +91,8 @@ Two transparent **polyurethane balloons** are guided through curved side channel
   </table>
 </div>
 
-<div class="highlight-box" style="border-left: 4px solid #25c279; background-color: rgba(37,194,121,0.08); padding: 1em 1.5em; border-radius: 6px; margin: 1.5em 0;">
-  <strong style="color: #25c279;">Key Design Highlights:</strong><br>
+<div class="highlight-box">
+  <strong>Key Design Highlights:</strong><br>
   • Achieved ~900% increase in subdeltoid visualization area.<br>
   • Sustained >20 N of force without structural deformation.<br>
   • Fully compatible with existing arthroscopic cannula systems.
